@@ -19,6 +19,14 @@ header {
     margin-right: 23px;
 }
 
+.link-header:hover {
+    opacity: 0.8;
+}
+
+.link-header:active {
+    opacity: 0.7;
+}
+
 .button-header {
     background: #665AE1;
     border-radius: 20.5px;
@@ -30,6 +38,14 @@ header {
     line-height: 29px;
     color: #ffffff;
     cursor: pointer;
+}
+
+.button-header:hover {
+    opacity: 0.8;
+}
+
+.button-header:active {
+    opacity: 0.7;
 }
 
 .logo-image {
@@ -86,6 +102,14 @@ p {
     cursor: pointer;
     margin-top: 65px;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.button-main:hover {
+    opacity: 0.8;
+}
+
+.button-main:active {
+    opacity: 0.7;
 }
 
 @media screen and (max-width: 630px) {
